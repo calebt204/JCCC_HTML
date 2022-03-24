@@ -1,0 +1,44 @@
+
+Tool Name	
+Description	
+Type
+
+1.jQuery	
+jQuery is a JavaScript library that makes coding in JavaScript much more efficient, making it require less code to accomplish the same task.	
+JavaScript library
+
+2.Github	
+Github is a website that is used for open source and business software development. It is provides hosting for software development version control as well.	
+Repository Hosting Service
+
+3.Sass	
+Sass stands for Syntactically awesome style sheets, and is one of the most useful tools for CSS out there. It's a CSS extension language that boasts having more features than any other extension language out there.	
+Extension Language
+
+4.Grunt	
+Grunt is a JavaScript task runner that is used to perform all sorts of repetitive tasks such as minification, compilation, unit testing, linting. It also comes with hundreds of plugins which you can use to automate just about everything.	
+Task Runner
+
+5.Chrome Dev Tools	
+Chrome DevTools are a set of tools actually built in to Google Chrome itself. These tools are very useful for debugging, and actually seeing your page layout.	
+Built in Tools
+
+6.Less	
+Less stands for learner style sheets and is another language extension for CSS. It works like jQuery but for CSS, making it require less code to accomplish the same function.	
+Extension Language
+
+7.ColorZilla	
+ColorZilla is a tool that web designers can use to find a specific color they want from another webpage. ColorZilla includes a Color Picker, Eye Dropper, Gradient to help find any color you desire.	
+Chrome Extension
+
+8.WhatFont	
+WhatFont is another chrome extension, but this one is used to tell you the font used on a webpage so you can use it for your own.	
+Design
+
+9.MeasureIt	
+MeasureIt is yet another Chrome extension used to find the exact measurements of a webpage that you can then use to model your website after.	
+Design
+
+10.NPM	
+NPM is a package manager for JavaScript and is also a registry filled with hundreds of thousands of packages of code for JavaScript coders to use.	
+Package Manager

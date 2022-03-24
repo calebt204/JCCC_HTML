@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--Caleb Turner 5/18/2020-->
+<!--This is the html file for the form page-->
+<html lang ="en">
+    <head>
+        <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+
+        <meta charset="utf-8">
+        <title>Recommend</title>
+        <!--link style sheet-->
+        <link rel="stylesheet" href="final.css">
+    </head>
+    <body >
+    <div id="wrapper">
+        <header>
+            <h1>Great Website Development Tools</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="final1.html">Home</a></li>
+                <li><a href="final2.html">Info</a></li>
+                <li><a href="final3.html">Recommend</a></li>
+                <li><a href="final4.html">Credits</a></li>
+                <li><a href="final5.html">Course Info</a></li>
+            </ul>
+        </nav>
+        <!--Website intro-->
+        <main>
+            <form method="POST" target="_self">
+                <section id="one">
+                    <h3>Contact Info</h3>
+                    <label for="myFName">First Name:</label>
+                    <input type="text" id="myFName" name="myFName" size="20"/>
+                    <br>
+                    <label for="myLName">Last Name : </label>
+                    <input type="text" id="myLName" name="myLName"/>
+                    <br>
+                    <label for="email"> ***E-mail :</label>
+                    <input type="email" id="email" name="email" required/>
+                    <br>
+                    <label for="arrivalDate">Submission Date:</label>
+                    <input type="date" id="arrivalDate" name="arrivalDate"/>
+                    <br>
+                    <p>Receive notifications for:</p>
+                    <label for="list">List Updates</label>
+                    <input type="checkbox" id="list" name="notifications" required/>
+                    <br>
+                    <label for="rank1">Major Cite Changes</label>
+                    <input type="checkbox" id="cite" name="notifications" required/>
+
+                </section>
+                <figure>
+                    <img class="logos" src="mainIcon.jpg" alt="logos">
+                </figure>
+                <section id="two">
+                    <h3>Recommendation</h3>
+                    <p>Didn't see something that you think belongs here? Leave a recommendation!</p>
+                    <br>
+                    <p>*Ranking:</p>
+                    <label for="rank1">1</label>
+                    <input type="radio" id="rank1" name="rank" required/>
+                    <label for="rank2">2</label>
+                    <input type="radio" id="rank2" name="rank" required/>
+                    <label for="rank3">3</label>
+                    <input type="radio" id="rank3" name="rank" required/>
+                    <label for="rank4">4</label>
+                    <input type="radio" id="rank4" name="rank" required/>
+                    <label for="rank5">5</label>
+                    <input type="radio" id="rank5" name="rank" required/>
+                    <label for="rank6">6</label>
+                    <input type="radio" id="rank6" name="rank" required/>
+                    <label for="rank7">7</label>
+                    <input type="radio" id="rank7" name="rank" required/>
+                    <label for="rank8">8</label>
+                    <input type="radio" id="rank8" name="rank" required/>
+                    <label for="rank9">9</label>
+                    <input type="radio" id="rank9" name="rank" required/>   
+                    <label for="rank10">10</label>
+                    <input type="radio" id="rank10" name="rank" required/>
+                    <br>
+                    <label for="recomendation">*Recommendation:</label>
+                    <br>
+                    <textarea id="recomendation" name="recomendation" rows="2" cols="30" required></textarea>
+                </section>
+                    <input id="three" type="submit">
+                
+            </form>
+        <!--Try and find a computer picture to wrap behind text-->
+        </main>
+        <!--Footer being used for social media-->
+        <nav>
+            <ul>
+                <li><a href="final1.html">Home</a></li>
+                <li><a href="final2.html">Info</a></li>
+                <li><a href="final3.html">Recommend</a></li>
+                <li><a href="final4.html">Credits</a></li>
+                <li><a href="final5.html">Course Info</a></li>
+            </ul>
+        </nav>
+        <footer>
+            <p>Caleb Turner, Johnson County Community College, Spring 2020. WEB 110 - HTML & CSS.</p>
+            <a href = "mailto:calebt203@yahoo.com">Email</a>
+        </footer>
+    </div>
+    </body>
+</html>
+
